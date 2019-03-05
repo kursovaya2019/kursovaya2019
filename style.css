@@ -1,0 +1,127 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	width: 100%;
+	min-width: 450px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header { }
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 25px 0 270px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -100%;
+	position: relative;
+	background: #FFF;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 0px;
+	background: #BFF08E;
+}
+
+
+/* Menu
+-----------------------------------------------------------------------------*/
+
+.boxTable {width:200px; padding:20px;margin:5px 0px; border: 1px solid #cacae6;}
+.boxTable th {font-size:9pt; color:#FF9115; padding-left:35px; text-align: left; background: url('images/1.gif') no-repeat #f5fcff; border: 1px solid #5bd1fc; height: 34px;}
+.boxContent {margin-left:auto;margin-right:auto;}
+ul.uz, ul.uMenuRoot {list-style: none; margin: 0 0 0 0; padding-left: 0px;}
+li.menus {margin: 0; padding: 0 0 0 15px; background: url('images/5.gif') no-repeat; margin-bottom: .6em;}
+.uMenuH li {float:left;padding:0 5px;}
+.uMenuV .uMenuItem {font-weight:bold;}
+.uMenuV li a:link {text-decoration:none; color:#4F98BC;}
+.uMenuV li a:active {text-decoration:none; color:#4F98BC;}
+.uMenuV li a:visited {text-decoration:none; color:#4F98BC;}
+.uMenuV li a:hover {text-decoration:none; color:#000000;}
+.uMenuV a.uMenuItemA:link {text-decoration:none; color:#79BD11}
+.uMenuV a.uMenuItemA:visited {text-decoration:none; color:#79BD11}
+.uMenuV a.uMenuItemA:hover {text-decoration:none; color:#000000}
+.uMenuV li {margin: 0; padding: 5px 5px 5px 15px;border-bottom:1px solid #97C821;font-size:11px;font-weight:bold; background: url('images/6.gif') left center no-repeat;}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.logo-block {padding-left: 145px; height: 120px; text-align: center; padding-right: 80px;}
+.logo-block h1 {margin: 0; padding: 0; font-weight: normal; color:#000000;}
+
+.miw {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	max-width: 871px;
+	margin-bottom: 20px;
+}
+
+
+/* Main page
+-----------------------------------------------------------------------------*/
+
+h1 {color: #12a4d8; font-size: 14pt; font-weight: normal; margin: 0px 20px 20px 0px;}
+
+a:link {text-decoration:underline; color:#0069A9;}
+a:active {text-decoration:underline; color:#0069A9;}
+a:visited {text-decoration:underline; color:#0069A9;}
+a:hover {text-decoration:none; color:#000000;}

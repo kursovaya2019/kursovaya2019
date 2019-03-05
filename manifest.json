@@ -1,0 +1,21 @@
+{
+  "short_name": "Школа №8",
+  "name": "Школа №8 города Нижневартовска",
+  "icons": [
+    {
+      "src": "logo2.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/school-pwa/school/",
+  "theme_color": "#3367D6"
+}
