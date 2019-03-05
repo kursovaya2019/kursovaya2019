@@ -3,9 +3,9 @@
   "name": "Школа №8 города Нижневартовска",
   "icons": [
     {
-      "src": "logo2.png",
+      "src": "logo192.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "192x192"
     },
     {
       "src": "logo1.png",
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "/kursovaya2019/index.html",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/kursovaya2019/",
